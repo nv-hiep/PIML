@@ -12,7 +12,7 @@ Illustration of data flow in the inference frameworks.
 
 
 **2. Title**:\
-Gas Temperature in Galaxies: A Journey from Gas to Stars\
+A Journey from Gas to Stars
 
 
 **3. Data analyses and Python notebooks**:\
@@ -20,15 +20,23 @@ https://github.com/nv-hiep/PIML
 
 
 
-**4. Preliminary results for Physics-Informed Inference**:\
-<img width="2493" height="1140" alt="GASKAP_GALAH_los" src="https://github.com/nv-hiep/PIML/blob/main/figs/fig1_inferrence.png" />
-Figure 2: Physics-informed inference framework for inferring gas temperature from GASKAP emission observations. Left: Observed emission spectrum (blue) as the input, reconstructed spectrum (red). Middle: Observed gas temperature spectrum (blue) and inferred temperature (red); significant fluctuation of observed temperatures below −10 kms−1 and above 20 kms−1 rises from the amplified noise in emission and absorption measurements. Right: Observed absorption spectrum (blue) and inferred optical depth (red). Gray bands indicate the velocity range of detected absorption (hence reliable measured gas temperatures), cyan envelopes represent presentative inference uncertainties.
+**4. Results for Physics-Informed Inference**:\
+***4.1 Results for Physics-Informed Inference: Testing and comparing with absorption obsevations***:\
+<img width="2493" height="1140" alt="GASKAP_GALAH_los" src="https://github.com/nv-hiep/PIML/blob/main/figs/fig1_all.png" />
+Figure 2: Physics-informed inference framework for inferring gas temperatures and optical depths from GASKAP observations (two first rows) and mock observation (bottom row). Left: Observed emission spectrum (blue) as the input, reconstructed spectrum (red). Middle: Observed gas temperature spectrum (blue) and inferred temperature (red); significant fluctuation of observed temperatures below −10 kms−1 and above 20 kms−1 rises from the amplified noise in emission and absorption measurements. Right: Observed absorption spectrum (blue) and inferred optical depth (red). Gray bands indicate the velocity range of detected absorption (hence reliable measured gas temperatures), cyan envelopes represent presentative uncertainties.
 
+
+***4.1 Results for Physics-Informed Inference: Testing with synthetic obsevations***:\
 <img width="2493" height="1140" alt="GASKAP_GALAH_los" src="https://github.com/nv-hiep/PIML/blob/main/figs/eg00.png" />
 Figure 3: Physics-informed inference framework for inferring HI temperature $T_\mathrm{s}(v)$ and optical depth $\tau (v)$ profiles  from emission $T_\mathrm{b}(v)$. Left panels: Testing emission spectra (blue) as the inputs, reconstructed emission spectra (red). Middle panels: True temperature profiles (blue), inferred temperature profiles (red). Right panels: True optical depth profiles (blue), inferred optical depth profiles (red). Shaded regions represent uncertainty, visualised through 512 samples drawn from the posterior distribution. Observationally, due to the observational sensitivity limitations, temperature uncertainties for warm HI gas could reach 100\% when HI temperatures exceed 10<sup>3</sup> K.
 
-# 5. Real-world application of the Neural Inference frameworks:<br /> CO<sub>2</sub> emission forecast from time-series data
 
+
+***4.1 Results for Physics-Informed Inference: Applications to GASKAP obsevations (Milky Way and LMC)***:\
+<img width="2493" height="1140" alt="GASKAP_GALAH_los" src="https://github.com/nv-hiep/PIML/blob/main/figs/gaskap_inferred_mw_fg_lmc_maps.png" />
+Figure 3: Application of the PIML framework to the GASKAP observations of the LMC (top row) and Milky Way (bottom row), enabling the inference of HI optical depths and temperatures. Left: Observed data, column density NHI. Middle: Peak optical depth τpeak map. Right: Corresponding gas temperature at τpeak, demonstrating the link between dense gas (high NHI), high optical depth, and low temperature.
+
+# 5. Real-world application of the Neural Inference frameworks:<br /> CO<sub>2</sub> emission forecast from time-series data
 See "_**co2_emission_prediction.ipynb**_" notebook for the neural framework for CO<sub>2</sub> emission forecast from time-series data.
 
 Preliminary results:
