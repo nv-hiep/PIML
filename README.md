@@ -22,7 +22,8 @@ https://github.com/nv-hiep/PIML
 
 **4. Results for Physics-Informed Inference**:\
 - See notebook "a01_PIML_model_for_GASKAP_data_MilkyWay.ipynb" for PIML inference models, and their applications to GASKAP observed data in the Milky Way.\
-- See notebook "a01_PIML_model_for_GASKAP_data_LMC.ipynb" for PIML inference models, and their applications to GASKAP observed data in the Large Magellnanic Cloud (LMC).\
+- See notebook "a01_PIML_model_for_GASKAP_data_LMC.ipynb" for PIML inference models, and their applications to GASKAP observed data in the Large Magellnanic Cloud (LMC).
+
 ***4.1 Results for Physics-Informed Inference: Testing and comparing with absorption obsevations***:\
 <img width="2493" height="1140" alt="GASKAP_GALAH_los" src="https://github.com/nv-hiep/PIML/blob/main/figs/fig1_all.png" />
 Figure 2: Physics-informed inference framework for inferring gas temperatures and optical depths from GASKAP observations (two first rows) and mock observation (bottom row). Left: Observed emission spectrum (blue) as the input, reconstructed spectrum (red). Middle: Observed gas temperature spectrum (blue) and inferred temperature (red); significant fluctuation of observed temperatures below −10 kms−1 and above 20 kms−1 rises from the amplified noise in emission and absorption measurements. Right: Observed absorption spectrum (blue) and inferred optical depth (red). Gray bands indicate the velocity range of detected absorption (hence reliable measured gas temperatures), cyan envelopes represent presentative uncertainties.
