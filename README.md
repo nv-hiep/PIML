@@ -20,9 +20,9 @@ https://github.com/nv-hiep/PIML
 
 
 
-**4. Results for Physics-Informed Inference**:\
-- See notebook "a01_PIML_model_for_GASKAP_data_MilkyWay.ipynb" for PIML inference models, and their applications to GASKAP observed data in the Milky Way.\
-- See notebook "a01_PIML_model_for_GASKAP_data_LMC.ipynb" for PIML inference models, and their applications to GASKAP observed data in the Large Magellnanic Cloud (LMC).
+**4. Results for Physics-Informed Inference**:
+- See notebook "a01_PIML_model_for_GASKAP_data_MilkyWay.ipynb" for PIML inference models, and their applications to GASKAP observed data in the Milky Way.
+- See notebook "a02_PIML_model_for_GASKAP_data_LMC.ipynb" for PIML inference models, and their applications to GASKAP observed data in the Large Magellnanic Cloud (LMC).
 
 ***4.1 Results for Physics-Informed Inference: Testing and comparing with absorption obsevations***:\
 <img width="2493" height="1140" alt="GASKAP_GALAH_los" src="https://github.com/nv-hiep/PIML/blob/main/figs/fig1_all.png" />
